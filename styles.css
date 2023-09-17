@@ -61,7 +61,7 @@ header img{
 
 #home{
     padding:1em;    
-    background-image: url(https://img3.wallspic.com/previews/1/9/5/7/0/107591/107591-paneles_de-x750.jpg);
+    background-image: url(fondo1.jpg);
     background-repeat: no-repeat;
     background-size: cover;  
     display: flex;
@@ -122,27 +122,33 @@ header img{
 #contacto p{text-align: center;}
 
 #catalogo{
-    padding: 1em 1em;
-     
+    background-image: url(fondo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
 }
 
 #catalogo p{color:black}
 
+
+
 #contacto{
-    padding: 1em 1em;
-    background-color:black;
+    background-image: url(fondo3.png);
+    background-repeat: no-repeat;
+    background-size:100vh;
+    background-color: #28907f ;    
+    background-position: center;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 #contacto p{
-    color: white;
-    font-size: 50px;
-    font-weight: bolder;
-    border-width: 2px;
-    border-color: aliceblue;
+    color:black
 }
+
+
 
 footer{
     background-color: #28907f;
