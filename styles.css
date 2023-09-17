@@ -1,0 +1,154 @@
+/*rgb(115,153,192)
+verde #28907f
+morado #502550*/
+
+
+
+html{scroll-behavior: smooth;}
+
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: aliceblue; 
+} 
+
+p{
+    font-size: 18px;
+}
+
+.container{
+    height: 100vh;
+}
+
+header{
+    background-color: black;       
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+    align-items: center;
+    height: 4em;  
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+header img{
+    width: 50px;
+    border-radius: 10%;
+    padding: 0.5em;
+}
+
+#menu a{
+    color: aliceblue;  
+    text-decoration: none;
+    padding: 0.5em;
+    text-transform: uppercase;
+    font-size: 18px;   
+    width: auto;      
+}
+
+
+#menu a:hover{
+    color:blueviolet;
+}
+
+
+
+
+/* Comienza Home - Suscríbete
+*/
+
+#home{
+    padding:1em;    
+    background-image: url(https://img3.wallspic.com/previews/1/9/5/7/0/107591/107591-paneles_de-x750.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    filter:brightness(1);       
+}
+
+#home #ninguna-mujer {
+    font-family: 'Caveat', cursive;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    width: 300px;
+    padding: 2em;
+    margin-left: 15px;
+     
+} 
+
+/*animation: maquina 5s infinite alternate;
+       
+}
+
+@keyframes maquina{
+    from{
+        width: 100%;
+    }
+    to{
+        width: 0%;
+    }
+}*/
+
+#home button{
+    color: aliceblue;
+    background-color: blueviolet;
+    font-size: 20px;
+    width: 120px;
+    height: 60px;
+    border-color: aliceblue;
+    border-radius: 4%;
+    border-style: solid;
+    
+}
+
+
+
+#home button:hover{
+    background-color: aliceblue;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+
+/* Comienza Catálogo y Contacto*/
+#catalogo p{text-align: center;}
+
+#contacto p{text-align: center;}
+
+#catalogo{
+    padding: 1em 1em;
+     
+}
+
+#catalogo p{color:black}
+
+#contacto{
+    padding: 1em 1em;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contacto p{
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    border-width: 2px;
+    border-color: aliceblue;
+}
+
+footer{
+    background-color: #28907f;
+    color: aliceblue;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
